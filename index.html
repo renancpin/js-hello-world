@@ -1,0 +1,18 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Hello World</title>
+    </head>
+    <body>
+        <script>
+            function submit(elementId) {
+                const name = document.getElementById(elementId).value;
+                alert(`Olá, ${name}!!`);
+            }
+        </script>
+
+        <input id="name" placeholder="Digite seu nome"/>
+        <br><br>
+        <button id="button" onclick="submit('name')">Confirmar</button>
+    </body>
+</html>
